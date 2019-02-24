@@ -235,8 +235,8 @@ button.close {
 .bold {
 	font-weight: bold;
 }
-.ital {
-	font-style: italic;
+.light {
+	font-weight: lighter;
 }
 .ital {
 	font-style: italic;
