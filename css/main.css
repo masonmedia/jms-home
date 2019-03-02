@@ -86,8 +86,8 @@ Author's custom styles
 ========================================================================== */
 
 html, body {
-	-webkit-animation: fadeIn 2s linear;
-	animation: fadeIn 1s linear;
+	-webkit-animation: fadeIn .5s linear;
+	animation: fadeIn .5s linear;
 	font-family: Raleway, Montserrat, Avenir, Helvetica, sans-serif;
 }
 /* body fade on load animation */
@@ -1081,6 +1081,7 @@ button.close,
 	width: 100%;
 	max-width: 100%;
 	margin: 20px 0 0;
+    padding: 20px;
 }
 
 .baguetteBox-button {
@@ -1106,7 +1107,14 @@ polyline {
 	max-width: 100%;
 	vertical-align: middle;
 	z-index: 0;
+    padding: 6%;
 }
+
+/*
+#myModal3 #baguetteBox-overlay .full-image img {
+    padding: 30px;
+}
+*/
 
 #baguetteBox-overlay .full-image {
 	background-color: #fff;
