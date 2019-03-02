@@ -87,7 +87,7 @@ Author's custom styles
 
 html, body {
 	-webkit-animation: fadeIn 2s linear;
-	animation: fadeIn 2s linear;
+	animation: fadeIn 1s linear;
 	font-family: Raleway, Montserrat, Avenir, Helvetica, sans-serif;
 }
 /* body fade on load animation */
@@ -1130,7 +1130,7 @@ polyline {
 
 /*	teaching section -------------------------*/
 
-#myModal6 p::first-line,
+/*#myModal6 p::first-line,*/
 #myModal7 p::first-line {
 	font-weight: bold;
 }
