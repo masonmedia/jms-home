@@ -60,9 +60,9 @@ $(document).ready(function () {
 
 //lettering .js
 
-$(document).ready(function() {
-	    $(".fancy_title").lettering();
-	  });
+//$(document).ready(function() {
+//	    $(".fancy_title").lettering();
+//	  });
 
 // baguette box 
 

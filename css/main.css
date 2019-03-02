@@ -88,7 +88,7 @@ Author's custom styles
 html, body {
 	-webkit-animation: fadeIn .5s linear;
 	animation: fadeIn .5s linear;
-	font-family: Raleway, Montserrat, Avenir, Helvetica, sans-serif;
+	font-family: 'Raleway', Montserrat, Avenir, Helvetica, sans-serif;
 }
 /* body fade on load animation */
 
@@ -125,7 +125,6 @@ a:visited {
 	text-decoration: none;
 	color: inherit;
 	-webkit-transition: all .3s ease;
-	-o-transition: all .3s ease;
 	transition: all .3s ease;
 }
 a:hover {
@@ -175,7 +174,6 @@ button:active,
 	border-color: slategray;
 	border-radius: 0;
 	-webkit-transition: all .3s ease-in-out;
-	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
 }
 .btn-default:hover {
@@ -185,7 +183,6 @@ button:active,
 	-webkit-box-shadow: 1px 2px 5px grey;
 	box-shadow: 1px 2px 5px grey;
 	-webkit-transform: scale(0.9);
-	-ms-transform: scale(0.9);
 	transform: scale(0.9);
 }
 button.close {
@@ -348,23 +345,19 @@ hr.l-r {
 .fancy_title,
 .fancy_title.teaching,
 .fancy_title.contact {
-	color: lightgrey;
-	color: rgba(0, 0, 0, 0.1);
 	font-size: 8vw;
 	font-weight: 200;
 	padding: 0 10px;
-	position: relative;
 	text-transform: uppercase;
-	-webkit-transition: .5s ease;
-	-o-transition: .5s ease;
-	transition: .5s ease;
-	z-index: -1;
-	-webkit-text-fill-color: transparent;
-	background: -webkit-linear-gradient(transparent, transparent), url(/img/jms-artist-photo-yellow.jpg) center top;
-	background: -o-linear-gradient(transparent, transparent);
-	-webkit-background-clip: text;
-	background-size: contain;
+    color: #000;
+     -webkit-text-fill-color: transparent;
+     background: -webkit-linear-gradient(transparent, transparent),
+                 url(/img/jms-artist-photo-yellow.jpg) center;
+     background: -o-linear-gradient(transparent, transparent);
+    background-size: cover;
+     -webkit-background-clip: text;
 }
+
 
 /* navigation -----------------------------------*/
 /* Remove the navbar's default margin-bottom and rounded borders */
@@ -382,7 +375,6 @@ hr.l-r {
 .navbar.scrolled {
 	background-color: rgba(0, 0, 0, 0.2) !important;
 	-webkit-transition: background-color 200ms linear;
-	-o-transition: background-color 200ms linear;
 	transition: background-color 200ms linear;
 }
 .navbar .container-fluid {
@@ -429,15 +421,12 @@ hr.l-r {
 .navbar-toggle .icon-bar {
 	/*	width: 22px;*/
 	-webkit-transition: all .2s ease;
-	-o-transition: all .2s ease;
 	transition: all .2s ease;
 }
 .navbar-toggle .top-bar {
 	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 	-webkit-transform-origin: 10% 10%;
-	-ms-transform-origin: 10% 10%;
 	transform-origin: 10% 10%;
 }
 .navbar-toggle .middle-bar {
@@ -445,15 +434,12 @@ hr.l-r {
 }
 .navbar-toggle .bottom-bar {
 	-webkit-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 	-webkit-transform-origin: 10% 90%;
-	-ms-transform-origin: 10% 90%;
 	transform-origin: 10% 90%;
 }
 .navbar-toggle.collapsed .top-bar {
 	-webkit-transform: rotate(0);
-	-ms-transform: rotate(0);
 	transform: rotate(0);
 }
 .navbar-toggle.collapsed .middle-bar {
@@ -461,7 +447,6 @@ hr.l-r {
 }
 .navbar-toggle.collapsed .bottom-bar {
 	-webkit-transform: rotate(0);
-	-ms-transform: rotate(0);
 	transform: rotate(0);
 }
 .navbar-default button.navbar-toggle:active,
@@ -713,33 +698,24 @@ hr.l-r {
 .bg-zinc {
 	background: #ADA996;
 	/* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
 	/* Chrome 10-25, Safari 5.1-6 */
 	background: -webkit-gradient(linear, left top, right top, from(#EAEAEA), color-stop(#DBDBDB), color-stop(#F2F2F2), to(#ADA996));
-	background: -webkit-linear-gradient(left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
-	background: -o-linear-gradient(left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
 	background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .bg-zinc-flip {
 	background: #ADA996;
 	/* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
 	/* Chrome 10-25, Safari 5.1-6 */
 	background: -webkit-gradient(linear, right top, left top, from(#EAEAEA), color-stop(#DBDBDB), color-stop(#F2F2F2), to(#ADA996));
-	background: -webkit-linear-gradient(right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
-	background: -o-linear-gradient(right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
 	background: linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .bg-metallic-toad {
 	background: #abbaab;
 	/* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #ffffff, #abbaab);
 	/* Chrome 10-25, Safari 5.1-6 */
 	background: -webkit-gradient(linear, right top, left top, from(#ffffff), to(#abbaab));
-	background: -webkit-linear-gradient(right, #ffffff, #abbaab);
-	background: -o-linear-gradient(right, #ffffff, #abbaab);
 	background: linear-gradient(to left, #ffffff, #abbaab);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -799,7 +775,6 @@ img.teaching {
 	right: 0;
 	background: rgba(159, 180, 180, 0.2);
 	-webkit-transition: all .3s linear;
-	-o-transition: all .3s linear;
 	transition: all .3s linear;
 }
 /* bg images -------------------------*/
@@ -813,8 +788,6 @@ img.teaching {
 
 .bg-about-gradient {
 	/*			background: linear-gradient(110deg, rgba(0,0,0,0.04) 30%, whitesmoke 30%);*/
-	background: -webkit-linear-gradient(340deg, rgba(0, 0, 0, 0.01) 30%, rgba(212, 202, 177, 0.3) 30%);
-	background: -o-linear-gradient(340deg, rgba(0, 0, 0, 0.01) 30%, rgba(212, 202, 177, 0.3) 30%);
 	background: linear-gradient(110deg, rgba(0, 0, 0, 0.01) 30%, rgba(212, 202, 177, 0.3) 30%);
 }
 .bg-about {
@@ -822,18 +795,12 @@ img.teaching {
 	background-size: cover;
 }
 .bg-tri-gradient {
-	background: -webkit-linear-gradient(20deg, whitesmoke 30%, rgba(0, 0, 0, 0) 30%), -webkit-linear-gradient(60deg, lightgrey 60%, #f0f0f0 60%);
-	background: -o-linear-gradient(20deg, whitesmoke 30%, rgba(0, 0, 0, 0) 30%), -o-linear-gradient(60deg, lightgrey 60%, #f0f0f0 60%);
 	background: linear-gradient(70deg, whitesmoke 30%, rgba(0, 0, 0, 0) 30%), linear-gradient(30deg, lightgrey 60%, #f0f0f0 60%);
 }
 .bg-work-gradient {
-	background: -webkit-linear-gradient(340deg, rgba(255, 245, 238, 0.5) 30%, rgba(159, 180, 180, 0.5) 30%);
-	background: -o-linear-gradient(340deg, rgba(255, 245, 238, 0.5) 30%, rgba(159, 180, 180, 0.5) 30%);
 	background: linear-gradient(110deg, rgba(255, 245, 238, 0.5) 30%, rgba(159, 180, 180, 0.5) 30%);
 }
 .bg-work-2 {
-	background: -webkit-linear-gradient(160deg, rgba(159, 180, 180, 0.5) 30%, rgba(159, 180, 180, 0) 30%), url('/img/jms-iceworks-5.jpg');
-	background: -o-linear-gradient(160deg, rgba(159, 180, 180, 0.5) 30%, rgba(159, 180, 180, 0) 30%), url('/img/jms-iceworks-5.jpg');
 	background: linear-gradient(-70deg, rgba(159, 180, 180, 0.5) 30%, rgba(159, 180, 180, 0) 30%), url('/img/jms-iceworks-5.jpg');
 	background-size: cover;
 	background-position: center;
@@ -844,8 +811,6 @@ img.teaching {
 	background-position: center;
 }
 .bg-teaching-gradient {
-	background: -webkit-linear-gradient(340deg, rgba(159, 180, 180, 0.3) 30%, rgba(255, 245, 238, 0.5) 30%);
-	background: -o-linear-gradient(340deg, rgba(159, 180, 180, 0.3) 30%, rgba(255, 245, 238, 0.5) 30%);
 	background: linear-gradient(110deg, rgba(159, 180, 180, 0.3) 30%, rgba(255, 245, 238, 0.5) 30%);
 }
 .bg-teaching-2 {
@@ -853,8 +818,6 @@ img.teaching {
 	background-size: cover;
 }
 .bg-news-gradient {
-	background: -webkit-linear-gradient(340deg, rgba(145, 180, 186, 0.5) 30%, rgba(0, 0, 0, 0.04) 30%);
-	background: -o-linear-gradient(340deg, rgba(145, 180, 186, 0.5) 30%, rgba(0, 0, 0, 0.04) 30%);
 	background: linear-gradient(110deg, rgba(145, 180, 186, 0.5) 30%, rgba(0, 0, 0, 0.04) 30%);
 }
 .bg-news-2 {
@@ -867,8 +830,6 @@ img.teaching {
 	image-rendering: pixelated;
 }
 .bg-contact-gradient {
-	background: -webkit-linear-gradient(340deg, lightgray 30%, rgba(0, 0, 0, 0.04) 30%);
-	background: -o-linear-gradient(340deg, lightgray 30%, rgba(0, 0, 0, 0.04) 30%);
 	background: linear-gradient(110deg, lightgray 30%, rgba(0, 0, 0, 0.04) 30%);
 }
 .bg-contact-2 {
@@ -915,7 +876,6 @@ img.teaching {
 
 .fade {
 	-webkit-transition: all .4s ease-in-out;
-	-o-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
 }
 .modal.fade .modal-dialog {
@@ -978,10 +938,8 @@ button.close,
 	height: 100px;
 	width: 100%;
 	-webkit-transform: skewY(-2deg);
-	-ms-transform: skewY(-2deg);
 	transform: skewY(-2deg);
 	-webkit-transform-origin: top left;
-	-ms-transform-origin: top left;
 	transform-origin: top left;
 }
 .jms-resume-divider {
@@ -1001,7 +959,6 @@ button.close,
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	-webkit-box-shadow: 10px 10px 10px grey;
 	box-shadow: 10px 10px 10px grey;
@@ -1041,10 +998,8 @@ button.close,
 	height: 200px;
 	background: #fff;
 	-webkit-transform: skewY(-3deg);
-	-ms-transform: skewY(-3deg);
 	transform: skewY(-3deg);
 	-webkit-transform-origin: top left;
-	-ms-transform-origin: top left;
 	transform-origin: top left;
 }
 /*	news section ---------------------*/
@@ -1097,6 +1052,7 @@ polyline {
 	width: 30px;
 }
 #baguetteBox-overlay .full-image img {
+	-webkit-box-shadow: none;
 	box-shadow: none;
 	display: inline-block;
 	height: auto;
@@ -1109,12 +1065,6 @@ polyline {
 	z-index: 0;
     padding: 6%;
 }
-
-/*
-#myModal3 #baguetteBox-overlay .full-image img {
-    padding: 30px;
-}
-*/
 
 #baguetteBox-overlay .full-image {
 	background-color: #fff;
@@ -1174,7 +1124,6 @@ polyline {
 #workshop-grid .col-sm-3:focus,
 #workshop-grid .col-sm-3:active {
 	-webkit-transition: all .3s ease-in-out;
-	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
 }
 #workshop-grid .col-sm-3:hover {
@@ -1214,7 +1163,6 @@ polyline {
 	margin: 0 10px 0 0 auto;
 	padding: 0;
 	-webkit-transition: all .3s ease;
-	-o-transition: all .3s ease;
 	transition: all .3s ease;
 }
 #contact .fa:hover {
@@ -1465,7 +1413,6 @@ Modify as content requires.
 }
 @media print,
 (-webkit-min-device-pixel-ratio: 1.25),
-(-o-min-device-pixel-ratio: 5/4),
 (min-resolution: 1.25dppx),
 (min-resolution: 120dpi) {
 	/* Style adjustments for high resolution devices */
