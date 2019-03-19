@@ -47,35 +47,11 @@ $(document).ready(function () {
 	});
 })
 
-
-//resume first word bold
-//https://stackoverflow.com/questions/55612/css-to-increase-size-of-first-word
-//doesn't work on mobile browswers
-
-//$('#background p, #solo p, #group p, #residencies p').each(function(){
-//    var me = $(this);
-//    me.html( me.text().replace(/(^\w+)/,'<strong>$1 ~</strong>') );
-//  });
-
-
-//lettering .js
-
-//$(document).ready(function() {
-//	    $(".fancy_title").lettering();
-//	  });
-
-// baguette box 
-
-//$(document).ready(function () {
-//	baguetteBox.run('.gallery', {
-//		animation: 'fadeIn',
-//	});
-//});
+// baguette box lightbox
 
 $(document).ready(function () {
 	baguetteBox.run('.gallery');
 });
-
 
 //img defer load
 

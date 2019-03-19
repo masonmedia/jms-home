@@ -6,7 +6,7 @@ For more information see [janicemasonsteeves.com](http://janicemasonsteeves.com)
 
 ## **Layout and Frameworks**
 
-The site uses Bootstrap 3.3.7, flexbox and functional css. 
+The site uses Bootstrap 3.3.7, flexbox, and functional css. The structure was built to emulate a SPA/Front-end framework. It uses bootstrap modals, set to 100% height and width, to display content, acting effectively as separate "pages". This keeps the site lightweight and fast loading, without the need to actually navigate to different urls. The drawback is in the additional markup required for the modals which makes finding sections a bit lengthy. 
 
 ## **CSS**
 
@@ -51,17 +51,17 @@ The site uses Bootstrap 3.3.7, flexbox and functional css.
 
 ## **JS**
 
-**Multiple JS plugins are used on the site.**
+1. Baguette Box: a lightbox library for showcasing paintings in the various "work" section modals. Find more [here](https://feimosi.github.io/baguetteBox.js/).
 
-1. swup: an ajax plugin that hijacks http requests, swapping page content out without page refresh. Significantly improves view change speed and performance in addition to allowing for entrance and exit animations.
+2. `img` load defer script: this adds a data attribute to gallery images that essentially lazy loads images when needed, not on initial page load. 
 
-2. AOS: animate on scroll. A simple css based animation library that activates a variety of css animations on scroll.
+3. JS smooth anchor scrolling menu.
 
- ## **Google Analytics + Stats Counter**
+ ## **Google Analytics + Statcounter**
     
 1. GA gtag script is added in footer for general analytics, traffic, page views, bounce rate, etc.
 
-2. Onclick events have been added to all <a> and nav links going to the jaxx.io Downloads and Support pages, as well as all footer links to social channels. Tags are organized by category (destination and/or item i.e. Downloads page or Android), and given a label (location on page i.e. menu, section, footer) for analysis: <onclick="googleAnalyticsTrigger('Downloads_Page', 'Footer')">
+2. A additional tag is added for Statcounter, a separate analytics service.
 
 ## **.htaccess**
 
