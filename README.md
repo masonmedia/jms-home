@@ -1,12 +1,12 @@
 # **Janice Mason Steeves Official Website**
 
-The official website of Jaxx Liberty, the leading Multi-Platform Cryptocurrent Wallet created by Anthony Di Iorio, Co-founder of Ethereum and founder and CEO of Decentral and Jaxx.
+The official website of Canadian artist and educator Janice Mason Steeves. Janice is represented by galleries in Canada and the U.S., with work in public, corporate, and private collections in Canada and internationally. As well as an active one-on-one Art Mentoring program, Janice teaches painting workshops in Canada, the U.S., and Europe. She has also been awarded artist residencies in Spain, Ireland, Sweden, and Iceland.
 
 For more information see [janicemasonsteeves.com](http://janicemasonsteeves.com) and [workshopsinwildplaces.com](http://workshopsinwildplaces.com).
 
 ## **Layout and Frameworks**
 
-The site uses Bootstrap 3.3.7, and uses flexbox and functional css.
+The site uses Bootstrap 3.3.7, flexbox and functional css. 
 
 ## **CSS**
 
