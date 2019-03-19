@@ -50,7 +50,7 @@ The site uses Bootstrap 3.3.7, flexbox, and functional css. The structure was bu
 
 1. Baguette Box: a lightbox library for showcasing paintings in the various "work" section modals. Find more [here](https://feimosi.github.io/baguetteBox.js/).
 
-2. `img` load defer script: this adds a data attribute to gallery images that essentially lazy loads images when needed, not on initial page load. 
+2. `img` load defer script: this adds a data attribute to gallery images that lazy loads them when needed, not on initial page load. 
 
 3. JS smooth anchor scrolling menu.
 
@@ -59,7 +59,3 @@ The site uses Bootstrap 3.3.7, flexbox, and functional css. The structure was bu
 1. GA gtag script is added in footer for general analytics, traffic, page views, bounce rate, etc.
 
 2. A additional tag is added for Statcounter, a separate analytics service.
-
-## **.htaccess**
-
-1. Multiple .htaccess rewrites are employed to redirect previous site .html extensions to .php, and then to remove .php for pretty urls.
