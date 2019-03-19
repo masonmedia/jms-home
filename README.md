@@ -6,13 +6,11 @@ For more information see [janicemasonsteeves.com](http://janicemasonsteeves.com)
 
 ## **Layout and Frameworks**
 
-The site uses Bootstrap 3.3.7, flexbox, and functional css. The structure was built to emulate a SPA/Front-end framework. It uses bootstrap modals, set to 100% height and width, to display content, acting effectively as separate "pages". This keeps the site lightweight and fast loading, without the need to actually navigate to different urls. The drawback is in the additional markup required for the modals which makes finding sections a bit lengthy. 
+The site uses Bootstrap 3.3.7, flexbox, and functional css. The structure was built to emulate a SPA/Front-end framework. It uses bootstrap modals, set to 100% height and width, to display content, acting effectively as separate "pages". This keeps the site lightweight and fast loading, without the need to actually navigate to different urls. The drawback is in the additional markup required for the modals which makes the single HTML page quite long. Effort has been made to comment sections clear for ease of navigation. 
 
 ## **CSS**
 
 1. Functional [Atomic] css: the site employs the atomic css approach where small, single purpose classes are used based on visual function. Classes are referenced once in the CSS then used repeatedly in the HTML so as to avoid class repetition in the stylesheet.
-
-*Note: the HTML can get heavy with classes, specifically when it comes to spacing (padding and margin styles). Effort has been made to keep styles functional as much as possible, with added stylesheet classes only when necessary.*
 
 2. One stylesheet is used with an effort at organizing structure vertically based on relationship to HTML and page/section order. It starts with resets and global elements, proceeding to more specific styles.
 
@@ -20,10 +18,9 @@ The site uses Bootstrap 3.3.7, flexbox, and functional css. The structure was bu
 
     - titles and headings: `.site-title`, `.page-title`, `.section-title`
     - p description subheadings and CTAs: `.p-big`, `.p-btn`
-    - fonts: `Helvetica Neue` is the primary theme font.
-    - background images: `.bg--...`
+    - fonts: `Raleway` is the primary theme font.
+    - background images: `.bg-img...`
     - background colors: `.bg-...`
-    - logos and icons: `.decentral-logo`
 
 4. Class order conventions:
 
