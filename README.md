@@ -6,7 +6,7 @@ For more information see [janicemasonsteeves.com](http://janicemasonsteeves.com)
 
 ## **Layout and Frameworks**
 
-The site uses Bootstrap 3.3.7, flexbox, and functional css. The structure was built to emulate a SPA/Front-end framework. It uses bootstrap modals, set to 100% height and width, to display content, acting effectively as separate "pages". This keeps the site lightweight and fast loading, without the need to actually navigate to different urls. The drawback is in the additional markup required for the modals which makes the single HTML page quite long. Effort has been made to comment sections clear for ease of navigation. 
+The site uses Bootstrap 3.3.7, flexbox, and functional css. The structure was built to emulate a SPA/Front-end framework but using bootstrap modals, set to 100% height and width, to act effectively as separate "pages". This keeps the site relatively lightweight and fast loading, without the need to actually navigate to different urls/make additional http requests. The drawback is in the additional markup required for the modals which makes the page fairly long. Effort has been made to comment sections clearly for ease of navigation.
 
 ## **CSS**
 
