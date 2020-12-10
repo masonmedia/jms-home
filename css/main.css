@@ -780,7 +780,7 @@ img.teaching {
 /* bg images -------------------------*/
 
 .bg-banner {
-	background: url(./img/jms-artist-photo-yellow.jpg) center;
+	background: url(/img/jms-artist-photo-yellow.jpg) center;
 	background-size: cover;
 	background-attachment: fixed;
 }
