@@ -352,7 +352,7 @@ hr.l-r {
     color: #000;
      -webkit-text-fill-color: transparent;
      background: -webkit-linear-gradient(transparent, transparent),
-                 url(/img/jms-artist-photo-yellow.jpg) center;
+                 url(img/jms-artist-photo-yellow.jpg) center;
      background: -o-linear-gradient(transparent, transparent);
     background-size: cover;
      -webkit-background-clip: text;
@@ -780,7 +780,7 @@ img.teaching {
 /* bg images -------------------------*/
 
 .bg-banner {
-	background: url(/img/jms-artist-photo-yellow.jpg) center;
+	background: url(img/jms-artist-photo-yellow.jpg) center;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -791,7 +791,7 @@ img.teaching {
 	background: linear-gradient(110deg, rgba(0, 0, 0, 0.01) 30%, rgba(212, 202, 177, 0.3) 30%);
 }
 .bg-about {
-	background: url('/img/jms-artist-photo-wood-filmstrip-bright.jpg');
+	background: url('img/jms-artist-photo-wood-filmstrip-bright.jpg');
 	background-size: cover;
 }
 .bg-tri-gradient {
@@ -801,12 +801,12 @@ img.teaching {
 	background: linear-gradient(110deg, rgba(255, 245, 238, 0.5) 30%, rgba(159, 180, 180, 0.5) 30%);
 }
 .bg-work-2 {
-	background: linear-gradient(-70deg, rgba(159, 180, 180, 0.5) 30%, rgba(159, 180, 180, 0) 30%), url('/img/jms-iceworks-5.jpg');
+	background: linear-gradient(-70deg, rgba(159, 180, 180, 0.5) 30%, rgba(159, 180, 180, 0) 30%), url('img/jms-iceworks-5.jpg');
 	background-size: cover;
 	background-position: center;
 }
 .bg-work-2 {
-	background: url('/img/jms-Iceworks-18/jms-Iceworks-42.jpg') no-repeat;
+	background: url('img/jms-Iceworks-18/jms-Iceworks-42.jpg') no-repeat;
 	background-size: contain;
 	background-position: center;
 }
@@ -814,14 +814,14 @@ img.teaching {
 	background: linear-gradient(110deg, rgba(159, 180, 180, 0.3) 30%, rgba(255, 245, 238, 0.5) 30%);
 }
 .bg-teaching-2 {
-	background: url('/img/jms-teaching-1.jpg') center;
+	background: url('img/jms-teaching-1.jpg') center;
 	background-size: cover;
 }
 .bg-news-gradient {
 	background: linear-gradient(110deg, rgba(145, 180, 186, 0.5) 30%, rgba(0, 0, 0, 0.04) 30%);
 }
 .bg-news-2 {
-	background: url(/img/jms-iceworks-cropped/Iceworks%2048%2012x15%22.jpg) center no-repeat;
+	background: url(img/jms-iceworks-cropped/Iceworks%2048%2012x15%22.jpg) center no-repeat;
 	background-size: contain;
 	-ms-interpolation-mode: nearest-neighbor;
 	image-rendering: -webkit-optimize-contrast;
@@ -833,7 +833,7 @@ img.teaching {
 	background: linear-gradient(110deg, lightgray 30%, rgba(0, 0, 0, 0.04) 30%);
 }
 .bg-contact-2 {
-	background: url('/img/jms-Iceworks-49.jpg') center no-repeat;
+	background: url('img/jms-Iceworks-49.jpg') center no-repeat;
 	background-position: center;
 	background-size: cover;
 }
@@ -880,7 +880,7 @@ img.teaching {
 }
 .modal.fade .modal-dialog {
 	-webkit-transform: translate(0, 0);
-	-ms-transform: translate(0, 0); // IE9 only
+	-ms-transform: translate(0, 0);
 	transform: translate(0, 0);
 }
 /* modal text */
@@ -943,7 +943,7 @@ button.close,
 	transform-origin: top left;
 }
 .jms-resume-divider {
-	background: url(/img/jms-mentoring-paints.jpeg) center;
+	background: url(img/jms-mentoring-paints.jpeg) center;
 	background-size: cover;
 	background-attachment: fixed;
 	-webkit-filter: grayscale(100);
@@ -964,24 +964,24 @@ button.close,
 	box-shadow: 10px 10px 10px grey;
 }
 .jms-statement-divider {
-	background: url(/img/jms-iceworks-44.jpg) center;
+	background: url(img/jms-iceworks-44.jpg) center;
 	background-size: cover;
 }
 .jms-jumbo-workshops {
-	background: url(/img/jms-workshops-min.jpg) center top;
+	background: url(img/jms-workshops-min.jpg) center top;
 	background-size: cover;
 	background-attachment: fixed;
 	-webkit-filter: grayscale(100);
 	filter: grayscale(100);
 }
 .jms-workshops-divider {
-	background: url(/img/jms-bw-studio.jpg) center;
+	background: url(img/jms-bw-studio.jpg) center;
 	background-size: contain;
 	background-attachment: fixed;
 }
 .jms-jumbo-mentoring,
 .jms-mentoring-divider {
-	background: url(/img/jms-mentoring-5-min.jpg) center top;
+	background: url(img/jms-mentoring-5-min.jpg) center top;
 	background-size: contain;
 	background-attachment: fixed;
 }
