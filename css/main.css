@@ -352,7 +352,7 @@ hr.l-r {
     color: #000;
      -webkit-text-fill-color: transparent;
      background: -webkit-linear-gradient(transparent, transparent),
-                 url(/img/jms-artist-photo-yellow.jpg) center;
+                 url('/img/jms-artist-photo-yellow.jpg') center;
      background: -o-linear-gradient(transparent, transparent);
     background-size: cover;
      -webkit-background-clip: text;
@@ -780,7 +780,7 @@ img.teaching {
 /* bg images -------------------------*/
 
 .bg-banner {
-	background: url(/img/jms-artist-photo-yellow.jpg) center;
+	background: url('img/jms-artist-photo-yellow.jpg') center;
 	background-size: cover;
 	background-attachment: fixed;
 }
